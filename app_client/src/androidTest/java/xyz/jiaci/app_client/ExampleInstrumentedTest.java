@@ -1,4 +1,4 @@
-package xyz.jiaci.aidltest;
+package xyz.jiaci.app_client;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;
@@ -21,6 +21,6 @@ public class ExampleInstrumentedTest {
         // Context of the app under test.
         Context appContext = InstrumentationRegistry.getTargetContext();
 
-        assertEquals("xyz.jiaci.aidltest", appContext.getPackageName());
+        assertEquals("xyz.jiaci.app_client", appContext.getPackageName());
     }
 }

@@ -1,4 +1,4 @@
-package xyz.jiaci.aidltest;
+package xyz.jiaci.app_client;
 
 import org.junit.Test;
 

@@ -16,6 +16,11 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <service android:name=".JCMyService">
+            <intent-filter>
+                <action android:name="xyz.jiaci.app_server.JCMYSERVICE"/>
+            </intent-filter>
+        </service>
     </application>
 
 </manifest>
